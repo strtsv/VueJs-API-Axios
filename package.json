@@ -2,14 +2,13 @@
   "name": "vuehue",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "jsusilo <enr@bk.ru>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.2",
     "vue": "^2.5.3",
     "vuetify": "^1.0.0"
   },
